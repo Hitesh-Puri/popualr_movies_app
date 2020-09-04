@@ -36,7 +36,7 @@ public class MovieFragment extends Fragment implements SharedPreferences.OnShare
     private void displayMovies() {
 //        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(requireContext());
 //        String apiKey = sharedPreferences.getString(getString(R.string.pref_key_api_key), null);
-        String apiKey="1431e6b24caf74f4c6b65631409948c9";
+        String apiKey="YOUR_TMDB_API_KEY";
         if (!TextUtils.isEmpty(tag) && !TextUtils.isEmpty(apiKey)) {
             switch (tag) {
                 case MainActivity.FRAG_TAG_POPULAR:
